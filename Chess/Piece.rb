@@ -1,7 +1,10 @@
 class Piece 
-  def initialize 
-    @start_location = nil 
-
+  def initialize(color, board, pos)
+    @color = color
+    @board = board
+    @pos = pos
   end
+
+  def moves
 
 end
